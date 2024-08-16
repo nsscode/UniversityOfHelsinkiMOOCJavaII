@@ -15,7 +15,7 @@ public class VehicleRegistry {
 
         // Check if the plate is already in the registry
         if (this.registry.containsKey(licensePlate)) {
-            return false; // if it contains the plate it already has an owner
+            return false; // If it contains the plate it already has an owner
         }
 
         // If not, add the plate and owner to the registry
